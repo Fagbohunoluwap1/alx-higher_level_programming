@@ -2,6 +2,6 @@
 def islower(c):
     """write a function that checks for lower case characters."""
     if ord(c) >= ord('a') and ord(c) <= ord('z'):
-        return true
+        return True
     else:
-        return false
+        return False
