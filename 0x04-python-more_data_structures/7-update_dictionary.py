@@ -3,7 +3,7 @@ def update_dictionary(a_dictionary, key, value):
     if key not in dictionary:
         a_dictionary[key] = value
     else:
-        for i in dictionary:
+        for i in a_dictionary:
             if i == key:
                 a_dictionary[i] = value
     return a_dictionary
