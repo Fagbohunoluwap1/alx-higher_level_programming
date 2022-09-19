@@ -78,6 +78,15 @@ class Rectangle:
             return (rect_1)
         return (rect_2)
 
+    @classmethod
+    def square(cls, size=0):
+        """Return a new Rectangle with the width an height equal to size.
+
+        Args:
+            size (int): the width and height of the new rectangle.
+        """
+        return (cls(size, size))
+
     def __str__(self):
         """Return the printable representation of the Rectangle.
 
