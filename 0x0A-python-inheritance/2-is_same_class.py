@@ -3,11 +3,11 @@
 
 
 def is_same_class(obj, a_class):
-    """Function to deterrmine if exactly an object is an instance of a class
+    """Function to determine if exactly an object is an instance of a class
 
     Args:
         obj: object to look at
-        a_class: class to verify if an object is an istance of.
+        a_class: class to verify if an object is an instance of.
 
     Return:
         True if object is an instance of a class
