@@ -9,7 +9,7 @@ def is_kind_of_class(obj, a_class):
         obj: object to look at.
         a_class: class to evaluate
 
-    Return:
+    Returns:
         If obj is an instance  or inherited instance of a_class - True
         otherwise - False.
     """
